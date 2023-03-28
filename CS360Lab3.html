@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<!--style="width:600px;height:350px;overflow:hidden;margin-left:0px;position:absolute"-->
+<!--Images from https://www.cntraveler.com/gallery/15-beautiful-pictures-of-spring-flowers-around-the-world -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title>CS360Lab3</title>
+  </head>
+  <body style="background-color:#000000;height:100%;width:100%">
+		<div class="container-fluid" style="text-align:left;">
+		<div class="row" style="text-align:left;">
+			
+			<div class="col-10">
+			<div class="row-2">
+			
+				<div class="photo-section min-vh-100" style="position:relative;overflow:hidden;height:100%;width:100%">
+					<div class="container-lg g-2" style="overflow:hidden;">
+					<div class = "row g-4 row-cols-1 row-cols-sm-2 row-cols-md-2">
+						<div class = "col" style="overflow:hidden;">
+							<img src="1.png" class="photo" alt="photo-section" style="overflow:hidden; margin:0%">
+						</div>
+						<div class = "col" style="overflow:hidden;">
+							<img src="2.png" class="photo" alt="photo-section" style="overflow:hidden; margin:0%">
+						</div>
+					</div>
+					
+					<div>
+					&nbsp;
+					</div>
+					
+					<div class = "row g-4 row-cols-1 row-cols-sm-3 row-cols-md-3">
+						<div class = "col" style="overflow:hidden;">
+							<img src="3.png" class="photo" alt="photo-section" style="overflow:hidden;">
+						</div>
+						<div class = "col g-4" style="overflow:hidden;">
+							<img src="4.png" class="photo" alt="photo-section" style="overflow:hidden;">
+						</div>
+						<div class = "col" style="overflow:hidden;">
+							<img src="5.png" class="photo" alt="photo-section" style="overflow:hidden;">
+						</div>
+					</div>
+					
+					<div>
+					&nbsp;
+					</div>
+					
+					<div class = "row g-4 row-cols-1 row-cols-sm-2 row-cols-md-2">
+						<div class = "col" style="overflow:hidden;">
+							<img src="6.png" class="photo" alt="photo-section" style="overflow:hidden; margin:0%">
+						</div>
+						<div class = "col" style="overflow:hidden;">
+							<img src="7.png" class="photo" alt="photo-section" style="overflow:hidden; margin:0%">
+						</div>
+					</div> 
+				</div>
+			</div>
+			
+			</div>
+			</div>
+			
+			<div class="col-2">
+					<h1 style="text-align:right;color:#FFFFFF">SHUTTER<br><br></h1>
+					<a href="index.html" style="text-decoration:none;font-size:32px;float:right;text-align:right;color:#FFFFFF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HOME<br></a>
+					<a href="CS360Lab3.html" style="text-decoration:none;font-size:32px;float:right;text-align:right;color:#FFFFFF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PHOTOS<br></a>
+					<a href="BIO.html" style="text-decoration:none;font-size:32px;float:right;text-align:right;color:#FFFFFF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BIO<br></a>
+					<a href="BLOG.html" style="text-decoration:none;font-size:32px;float:right;text-align:right;color:#FFFFFF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BLOG<br></a>
+					<a href="CONTACT.html" style="text-decoration:none;font-size:32px;float:right;text-align:right;color:#FFFFFF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CONTACT<br></a>
+					<img src="Twitter-logo-spacer.svg" width="20" height="20" style="float:right;text-align:right">		
+					<a href="CONTACT.html" target="_blank">	<img src="Instagram_simple_icon.svg" width="20" height="20" style="float:right;text-align:right"></a>
+					<img src="Twitter-logo-spacer.svg" width="20" height="20" style="float:right;text-align:right">	
+					<a href="CONTACT.html" target="_blank">	<img src="2021_Facebook_icon.svg" width="20" height="20" style="float:right;text-align:right"></a>
+					<img src="Twitter-logo-spacer.svg" width="20" height="20" style="float:right;text-align:right">	
+					<a href="CONTACT.html" target="_blank">	<img src="Twitter-logo.svg" width="20" height="20" style="float:right;text-align:right"></a>
+			</div>
+			
+			</div>
+			</div>
+			
+<!-- taken almost exactly from bootstrap website on modals https://getbootstrap.com/docs/4.0/components/modal/-->
+<div class="modal" id="photo-modal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+         <img src="1.jpg" class="modal-img" alt="modal img">
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+			
+<script src="modal.js"></script>
+			
+  </body>
+</html>
